@@ -1,0 +1,113 @@
+body {
+  background: #f1f1f1;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  padding: 45px;
+  background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F69eisenhower.csub.edu%2Facademicprograms%2F_images%2Flibrary%2520-%2520wide%2520banner.jpg&f=1&nofb=1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.container h1 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 35px;
+  color: #262626;
+}
+
+.navbar {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: right;
+  background-color: #e6e6e6;
+  width: 100%;
+  height: 25px;
+}
+
+.home {
+  float: left;
+  padding-left: 10px;
+}
+
+.navbar a {
+  font-family: "Righteous", cursive;
+  text-decoration: none;
+  color: #262626;
+  font-weight: bold;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.navbar a:hover {
+  color: #4d88ff;
+}
+
+h2, h5 {
+  font-family: "Righteous", cursive;
+  text-align: center;
+}
+
+select {
+  padding: 8px;
+  font-size: 15px;
+  border-radius: 0.2em;
+  border: 0;
+  outline: none;
+}
+
+.Book {
+  transition: transform 0.6s;
+}
+
+.Book:hover {
+  transform: scale(1.1);
+}
+
+.row {
+  margin-right: 22%;
+  margin-left: 22%;
+  padding: 5px 5px;
+}
+
+.column {
+  float: left;
+  width: 150px;
+  margin-bottom: 30px;
+}
+
+.column img {
+  border-radius: 0.2em;
+}
+
+.submit {
+  color: #ffffff;
+  border: 0;
+  background: #00B4CC;
+  padding: 10px;
+  border-radius: 0.3em;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+footer {
+  background-color: #e6e6e6;
+  width: 100%;
+  height: 15px;
+  text-align: center;
+  clear: both;
+  position: relative;
+}
+
+footer a {
+  text-decoration: none;
+  color: inherit;
+}
+
+footer a:hover {
+  color: #4d88ff;
+}
